@@ -31,7 +31,7 @@ export async function getHomeMovies() {
             const props = json.props?.pageProps;
             if(props) {
                 // Agregar listados de peliculas/series
-                const addList = (dataList: any[], type: 'movie' | 'series', targetArray: any[]) => {
+                const addList = (dataList: any[], type: 'movie' | 'series' | 'episode', targetArray: any[]) => {
                     if(!dataList) return;
                     dataList.forEach((item: any) => {
                         // Para episodios, item.serie.slug.name o item.slug.name (que es el id de la serie)
