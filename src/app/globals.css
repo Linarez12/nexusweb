@@ -674,3 +674,128 @@ body {
   margin-top: 3rem;
   width: 100%;
 }
+
+/* Nav Links & Buttons */
+.nav-links {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.btn-outline-primary {
+  background: transparent;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+.btn-outline-secondary {
+  background: transparent;
+  border: 1px solid var(--accent-secondary);
+  color: var(--accent-secondary);
+}
+
+/* ========================================================= */
+/* 📱 SMARTPHONE & TABLET RESPONSIVE TWEAKS 📱               */
+/* ========================================================= */
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .nav-links .btn {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+
+  .search-bar {
+    width: 100%;
+    margin: 0;
+  }
+
+  .search-bar input {
+    width: 100%;
+  }
+  
+  .search-bar input:focus {
+    width: 100%;
+  }
+
+  /* Hero Banner */
+  .hero-banner {
+    height: 60vh;
+    padding: 3rem 5%;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    margin: 0 auto;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .hero-actions a {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Grids */
+  .movie-grid {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 1rem;
+  }
+
+  .episodes-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+
+  /* Details Screen */
+  .details-hero {
+    padding: 2rem 5%;
+    min-height: auto;
+  }
+
+  .details-layout {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .details-poster {
+    width: 180px;
+    margin: 0 auto;
+  }
+
+  .details-text h1 {
+    font-size: 2rem;
+  }
+
+  /* Modals */
+  .modal-content {
+    padding: 3rem 1rem 1rem 1rem;
+    border-radius: 8px;
+  }
+
+  .modal-close {
+    top: 5px;
+    right: 5px;
+  }
+}

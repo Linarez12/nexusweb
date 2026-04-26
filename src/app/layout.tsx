@@ -27,10 +27,10 @@ export default function RootLayout({
             Nexus<span>Web</span>
           </a>
           <SearchBar />
-          <div style={{ display: 'flex', gap: '15px' }}>
+          <div className="nav-links">
             <a href="/" className="btn">Inicio</a>
-            <a href="/movies" className="btn" style={{ background: 'transparent', border: '1px solid var(--accent-color)', color: 'var(--accent-color)' }}>Películas</a>
-            <a href="/series" className="btn" style={{ background: 'transparent', border: '1px solid var(--accent-secondary)', color: 'var(--accent-secondary)' }}>Series</a>
+            <a href="/movies" className="btn btn-outline-primary">Películas</a>
+            <a href="/series" className="btn btn-outline-secondary">Series</a>
           </div>
         </nav>
         
