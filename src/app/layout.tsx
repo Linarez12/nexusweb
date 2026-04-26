@@ -16,10 +16,10 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
-        {/* ============================================================== */}
-        {/* 🤑 AQUI VA TU ETIQUETA <meta> Y SCRIPTS DE MONETAG 🤑          */}
-        {/* Ejemplo: <meta name="monetag" content="123456789" />          */}
-        {/* ============================================================== */}
+        <meta name="monetag" content="233866" />
+        <script src="https://quge5.com/88/tag.min.js" data-zone="233866" async data-cfasync="false"></script>
+        <script dangerouslySetInnerHTML={{ __html: `(function(s){s.dataset.zone='10930026',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))` }}></script>
+        <script dangerouslySetInnerHTML={{ __html: `(function(s){s.dataset.zone='10930028',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))` }}></script>
       </head>
       <body>
         <nav className="navbar">
