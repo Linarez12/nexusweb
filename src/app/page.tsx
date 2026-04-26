@@ -1,66 +1,64 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import { getHomeMovies } from "@/lib/scraper";
+import Link from 'next/link';
+import HeroBanner from '@/app/components/HeroBanner';
 
-export default function Home() {
+// Next.js ISR (Revalidar cada hora para tener peliculas frescas sin quemar Vercel)
+export const revalidate = 3600;
+
+export default async function Home() {
+  const { movies, episodes, hero } = await getHomeMovies();
+
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.tsx file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main>
+      <HeroBanner items={hero} />
+
+      <div className="container">
+        {episodes.length > 0 && (
+          <>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+              <h2 className="section-title">Últimos Episodios</h2>
+              <Link href="/series" className="btn" style={{ marginTop: 0, padding: '5px 15px', background: 'transparent', border: '1px solid var(--accent-secondary)', color: 'var(--accent-secondary)' }}>VER TODO</Link>
+            </div>
+            <div className="episodes-grid" style={{ marginBottom: '4rem' }}>
+              {episodes.slice(0, 10).map((ep) => (
+                <Link href={ep.link} key={`${ep.id}-${ep.epNumber}`} className="episode-card" style={{ textDecoration: 'none' }}>
+                  <div className="episode-thumb">
+                    <img src={ep.image} alt={ep.title} loading="lazy" />
+                  </div>
+                  <div className="episode-info">
+                    {ep.title}
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </>
+        )}
+
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <h2 className="section-title">Últimos Estrenos</h2>
+            <Link href="/movies" className="btn" style={{ marginTop: 0, padding: '5px 15px', background: 'transparent', border: '1px solid var(--accent-color)', color: 'var(--accent-color)' }}>VER TODO</Link>
         </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        
+        <div className="movie-grid">
+          {movies.slice(0, 20).map((movie) => (
+            <Link href={movie.link} key={movie.id} className="movie-card">
+              <img 
+                src={movie.image} 
+                alt={movie.title} 
+                className="movie-poster" 
+                loading="lazy" 
+              />
+              <div className="movie-info">
+                <div className="movie-title">{movie.title}</div>
+              </div>
+            </Link>
+          ))}
+          
+          {movies.length === 0 && (
+            <p>No se encontraron películas. (Intentando sincronizar)</p>
+          )}
         </div>
-      </main>
-    </div>
+      </div>
+    </main>
   );
 }

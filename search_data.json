@@ -1,0 +1,838 @@
+{
+  "context": {
+    "contexSidebarTopWeekMovies": {
+      "data": [
+        {
+          "titles": {
+            "name": "Proyecto Fin del Mundo"
+          },
+          "images": {
+            "backdrop": "https://image.tmdb.org/t/p/original/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg"
+          },
+          "releaseDate": "2026-03-15T00:00:00.000Z",
+          "rate": {
+            "average": 8.2
+          },
+          "TMDbId": "687163",
+          "slug": {
+            "name": "proyecto-fin-del-mundo"
+          }
+        },
+        {
+          "titles": {
+            "name": "Super Mario Galaxy: La película"
+          },
+          "images": {
+            "backdrop": "https://image.tmdb.org/t/p/original/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg"
+          },
+          "releaseDate": "2026-04-01T00:00:00.000Z",
+          "rate": {
+            "average": 6.79
+          },
+          "TMDbId": "1226863",
+          "slug": {
+            "name": "super-mario-galaxy-la-pelicula"
+          }
+        },
+        {
+          "titles": {
+            "name": "Avatar: Aang, El último Maestro Aire"
+          },
+          "images": {
+            "backdrop": "https://image.tmdb.org/t/p/original/sS3zGYFPcfM5pArVNWl6qLyaSmU.jpg"
+          },
+          "releaseDate": "2026-10-09T00:00:00.000Z",
+          "rate": {
+            "average": 0
+          },
+          "TMDbId": "980431",
+          "slug": {
+            "name": "avatar-aang-the-last-airbender"
+          }
+        },
+        {
+          "titles": {
+            "name": "Venganza"
+          },
+          "images": {
+            "backdrop": "https://image.tmdb.org/t/p/original/jJmlCFi5EjpH5vHmOczRiVDm0qS.jpg"
+          },
+          "releaseDate": "2026-02-26T00:00:00.000Z",
+          "rate": {
+            "average": 5.97
+          },
+          "TMDbId": "1613798",
+          "slug": {
+            "name": "venganza-1613798"
+          }
+        },
+        {
+          "titles": {
+            "name": "Compañeras de cuarto"
+          },
+          "images": {
+            "backdrop": "https://image.tmdb.org/t/p/original/cW8iKmWA6JAHgvNMyvrjqWd1dNp.jpg"
+          },
+          "releaseDate": "2026-04-13T00:00:00.000Z",
+          "rate": {
+            "average": 6.5
+          },
+          "TMDbId": "1511057",
+          "slug": {
+            "name": "companeras-de-cuarto"
+          }
+        },
+        {
+          "titles": {
+            "name": "El Drama"
+          },
+          "images": {
+            "backdrop": "https://image.tmdb.org/t/p/original/1oKLEA9JOhvaBwLpqjROisvWMy7.jpg"
+          },
+          "releaseDate": "2026-03-26T00:00:00.000Z",
+          "rate": {
+            "average": 7.04
+          },
+          "TMDbId": "1325734",
+          "slug": {
+            "name": "el-drama"
+          }
+        },
+        {
+          "titles": {
+            "name": "Avatar: Fuego y ceniza"
+          },
+          "images": {
+            "backdrop": "https://image.tmdb.org/t/p/original/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg"
+          },
+          "releaseDate": "2025-12-17T00:00:00.000Z",
+          "rate": {
+            "average": 7.37
+          },
+          "TMDbId": "83533",
+          "slug": {
+            "name": "avatar-fuego-y-ceniza"
+          }
+        },
+        {
+          "titles": {
+            "name": "Bolas arriba"
+          },
+          "images": {
+            "backdrop": "https://image.tmdb.org/t/p/original/jRsjWwZzI39bTm44FNhRtiICd9k.jpg"
+          },
+          "releaseDate": "2026-04-15T00:00:00.000Z",
+          "rate": {
+            "average": 5.44
+          },
+          "TMDbId": "1084577",
+          "slug": {
+            "name": "bolas-arriba"
+          }
+        }
+      ]
+    },
+    "contexSidebarTopWeekSeries": {
+      "data": [
+        {
+          "titles": {
+            "name": "Euphoria"
+          },
+          "images": {
+            "backdrop": "https://image.tmdb.org/t/p/original/GN2KFXiHPVV6sIw4v2P2pqCJty.jpg"
+          },
+          "releaseDate": "2019-06-16T00:00:00.000Z",
+          "rate": {
+            "average": 8.28
+          },
+          "TMDbId": "85552",
+          "slug": {
+            "name": "euphoria"
+          }
+        },
+        {
+          "titles": {
+            "name": "From"
+          },
+          "images": {
+            "backdrop": "https://image.tmdb.org/t/p/original/6gN8DYnIEln8v7OhRy61c57w0Xy.jpg"
+          },
+          "releaseDate": "2022-02-20T00:00:00.000Z",
+          "rate": {
+            "average": 8.16
+          },
+          "TMDbId": "124364",
+          "slug": {
+            "name": "from"
+          }
+        },
+        {
+          "titles": {
+            "name": "The Boys"
+          },
+          "images": {
+            "backdrop": "https://image.tmdb.org/t/p/original/bq28ajZaoMyzEIm6REelqyqtEDZ.jpg"
+          },
+          "releaseDate": "2019-07-25T00:00:00.000Z",
+          "rate": {
+            "average": 8.44
+          },
+          "TMDbId": "76479",
+          "slug": {
+            "name": "the-boys"
+          }
+        },
+        {
+          "titles": {
+            "name": "INVENCIBLE"
+          },
+          "images": {
+            "backdrop": "https://image.tmdb.org/t/p/original/9qrroces8C6R9aKr08hACNPVXdZ.jpg"
+          },
+          "releaseDate": "2021-03-25T00:00:00.000Z",
+          "rate": {
+            "average": 8.63
+          },
+          "TMDbId": "95557",
+          "slug": {
+            "name": "invencible"
+          }
+        },
+        {
+          "titles": {
+            "name": "Bronca"
+          },
+          "images": {
+            "backdrop": "https://image.tmdb.org/t/p/original/u7OpeS4eckBSR1wFxFTuyy3FjHE.jpg"
+          },
+          "releaseDate": "2023-04-06T00:00:00.000Z",
+          "rate": {
+            "average": 7.78
+          },
+          "TMDbId": "154385",
+          "slug": {
+            "name": "bronca"
+          }
+        },
+        {
+          "titles": {
+            "name": "One Piece"
+          },
+          "images": {
+            "backdrop": "https://image.tmdb.org/t/p/original/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg"
+          },
+          "releaseDate": "1999-10-20T00:00:00.000Z",
+          "rate": {
+            "average": 8.72
+          },
+          "TMDbId": "37854",
+          "slug": {
+            "name": "one-piece"
+          }
+        },
+        {
+          "titles": {
+            "name": "The Pitt"
+          },
+          "images": {
+            "backdrop": "https://image.tmdb.org/t/p/original/z3BkMbCy5ajZPMyKEUwsPHuz2cV.jpg"
+          },
+          "releaseDate": "2025-01-09T00:00:00.000Z",
+          "rate": {
+            "average": 8.72
+          },
+          "TMDbId": "250307",
+          "slug": {
+            "name": "the-pitt"
+          }
+        },
+        {
+          "titles": {
+            "name": "Star Wars: Maul - Señor de las sombras"
+          },
+          "images": {
+            "backdrop": "https://image.tmdb.org/t/p/original/5SrsdKcN9Flvccq59sIfJbhq1Fk.jpg"
+          },
+          "releaseDate": "2026-04-06T00:00:00.000Z",
+          "rate": {
+            "average": 7.6
+          },
+          "TMDbId": "289219",
+          "slug": {
+            "name": "star-wars-maul-senor-de-las-sombras"
+          }
+        }
+      ]
+    }
+  },
+  "lastMovies": {
+    "__typename": "PaginatedMovie",
+    "data": [
+      {
+        "titles": {
+          "name": "Ídolos"
+        },
+        "TMDbId": "1357449",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/j2gYxk9EQXh2hz1jNZQOe9WOUXU.jpg"
+        },
+        "releaseDate": "2026-01-23T00:00:00.000Z",
+        "slug": {
+          "name": "idolos"
+        }
+      },
+      {
+        "titles": {
+          "name": "Winterset"
+        },
+        "TMDbId": "1230052",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/2QnpFqRbCw11QOUZ3owo7K1keW0.jpg"
+        },
+        "releaseDate": "2026-03-26T00:00:00.000Z",
+        "slug": {
+          "name": "winterset"
+        }
+      },
+      {
+        "titles": {
+          "name": "Immortal Combat"
+        },
+        "TMDbId": "1656061",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/mhRAgvQ04DTE4zQN3OSyc9Lonj3.jpg"
+        },
+        "releaseDate": "2026-05-01T00:00:00.000Z",
+        "slug": {
+          "name": "immortal-combat"
+        }
+      },
+      {
+        "titles": {
+          "name": "Six jours, ce printemps-là"
+        },
+        "TMDbId": "1154728",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/aBG3mjAD5gjYzRcyIBzIwc2Zyn0.jpg"
+        },
+        "releaseDate": "2025-11-12T00:00:00.000Z",
+        "slug": {
+          "name": "six-jours-ce-printemps-la"
+        }
+      },
+      {
+        "titles": {
+          "name": "Wardriver"
+        },
+        "TMDbId": "938150",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/ipTXhWCJgeg5RN0CpmFZYDzOzQi.jpg"
+        },
+        "releaseDate": "2026-03-04T00:00:00.000Z",
+        "slug": {
+          "name": "wardriver"
+        }
+      },
+      {
+        "titles": {
+          "name": "Frankenstein: Legacy"
+        },
+        "TMDbId": "1114072",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/cnqyaHpZ7CpgKBlmBgbgqyKicJX.jpg"
+        },
+        "releaseDate": "2025-11-27T00:00:00.000Z",
+        "slug": {
+          "name": "frankenstein-legacy"
+        }
+      },
+      {
+        "titles": {
+          "name": "200% lobo"
+        },
+        "TMDbId": "974663",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/dIOobFw8QEDvnIA0oSA4sY5LVLD.jpg"
+        },
+        "releaseDate": "2024-07-04T00:00:00.000Z",
+        "slug": {
+          "name": "200percent-wolf"
+        }
+      },
+      {
+        "titles": {
+          "name": "Due Justice"
+        },
+        "TMDbId": "982940",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/weurvfmsfMIIQUegn6J4TJPFlRo.jpg"
+        },
+        "releaseDate": "2023-11-24T00:00:00.000Z",
+        "slug": {
+          "name": "due-justice"
+        }
+      },
+      {
+        "titles": {
+          "name": "Oppenheimer"
+        },
+        "TMDbId": "872585",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/ncKCQVXgk4BcQV6XbvesgZ2zLvZ.jpg"
+        },
+        "releaseDate": "2023-07-19T00:00:00.000Z",
+        "slug": {
+          "name": "oppenheimer"
+        }
+      },
+      {
+        "titles": {
+          "name": "La sustancia"
+        },
+        "TMDbId": "933260",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/mSZJpumWwwFEJgJIpda6uj5rPYa.jpg"
+        },
+        "releaseDate": "2024-09-07T00:00:00.000Z",
+        "slug": {
+          "name": "la-sustancia"
+        }
+      }
+    ]
+  },
+  "moviesBet": {
+    "__typename": "PaginatedMovie",
+    "data": [
+      {
+        "titles": {
+          "name": "Frankenstein: Legacy"
+        },
+        "TMDbId": "1114072",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/cnqyaHpZ7CpgKBlmBgbgqyKicJX.jpg"
+        },
+        "releaseDate": "2025-11-27T00:00:00.000Z",
+        "slug": {
+          "name": "frankenstein-legacy"
+        }
+      },
+      {
+        "titles": {
+          "name": "200% lobo"
+        },
+        "TMDbId": "974663",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/dIOobFw8QEDvnIA0oSA4sY5LVLD.jpg"
+        },
+        "releaseDate": "2024-07-04T00:00:00.000Z",
+        "slug": {
+          "name": "200percent-wolf"
+        }
+      },
+      {
+        "titles": {
+          "name": "Due Justice"
+        },
+        "TMDbId": "982940",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/weurvfmsfMIIQUegn6J4TJPFlRo.jpg"
+        },
+        "releaseDate": "2023-11-24T00:00:00.000Z",
+        "slug": {
+          "name": "due-justice"
+        }
+      },
+      {
+        "titles": {
+          "name": "Oppenheimer"
+        },
+        "TMDbId": "872585",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/ncKCQVXgk4BcQV6XbvesgZ2zLvZ.jpg"
+        },
+        "releaseDate": "2023-07-19T00:00:00.000Z",
+        "slug": {
+          "name": "oppenheimer"
+        }
+      },
+      {
+        "titles": {
+          "name": "La sustancia"
+        },
+        "TMDbId": "933260",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/mSZJpumWwwFEJgJIpda6uj5rPYa.jpg"
+        },
+        "releaseDate": "2024-09-07T00:00:00.000Z",
+        "slug": {
+          "name": "la-sustancia"
+        }
+      },
+      {
+        "titles": {
+          "name": "What Rhymes with Reason"
+        },
+        "TMDbId": "1123210",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/zVYhILLRnYeIKAazmFOl8wA2QZt.jpg"
+        },
+        "releaseDate": "2023-10-10T00:00:00.000Z",
+        "slug": {
+          "name": "what-rhymes-with-reason"
+        }
+      },
+      {
+        "titles": {
+          "name": "L'Amour et les Forêts"
+        },
+        "TMDbId": "989672",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/qMvQGBZD5R8ywLJjasB0XhshoBT.jpg"
+        },
+        "releaseDate": "2023-05-24T00:00:00.000Z",
+        "slug": {
+          "name": "lamour-et-les-forets"
+        }
+      },
+      {
+        "titles": {
+          "name": "Gunfight at Cold Cross"
+        },
+        "TMDbId": "1022712",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/eku7tArB1Y72U8ybNKQVTDnR0g0.jpg"
+        },
+        "releaseDate": "2023-04-23T00:00:00.000Z",
+        "slug": {
+          "name": "gunfight-at-cold-cross"
+        }
+      },
+      {
+        "titles": {
+          "name": "El puente de los condenados"
+        },
+        "TMDbId": "995810",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/3b2KsvBfRE2xmNviSjGjhPwCXpE.jpg"
+        },
+        "releaseDate": "2022-04-30T00:00:00.000Z",
+        "slug": {
+          "name": "bridge-of-the-doomed"
+        }
+      },
+      {
+        "titles": {
+          "name": "Tales of Babylon"
+        },
+        "TMDbId": "997380",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/a5jQIxBrZhbBjO967ORpsOc3sOT.jpg"
+        },
+        "releaseDate": "2023-06-11T00:00:00.000Z",
+        "slug": {
+          "name": "tales-of-babylon"
+        }
+      }
+    ]
+  },
+  "lastSeries": {
+    "__typename": "PaginatedSerie",
+    "data": [
+      {
+        "titles": {
+          "name": "Amigos y vecinos"
+        },
+        "TMDbId": "241609",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/ikaSVbTZyzsnjHK0ex64bJqQpgd.jpg"
+        },
+        "releaseDate": "2025-04-10T00:00:00.000Z",
+        "slug": {
+          "name": "amigos-y-vecinos"
+        }
+      },
+      {
+        "titles": {
+          "name": "The Pitt"
+        },
+        "TMDbId": "250307",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"
+        },
+        "releaseDate": "2025-01-09T00:00:00.000Z",
+        "slug": {
+          "name": "the-pitt"
+        }
+      },
+      {
+        "titles": {
+          "name": "Privilegios"
+        },
+        "TMDbId": "283853",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/cjJBNmSLqwhDL5nob2xu6nMOQgp.jpg"
+        },
+        "releaseDate": "2026-03-27T00:00:00.000Z",
+        "slug": {
+          "name": "privilegios"
+        }
+      },
+      {
+        "titles": {
+          "name": "For All Mankind"
+        },
+        "TMDbId": "87917",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/q5vmnIJvXJgstbjCW9Jxhd4GoRJ.jpg"
+        },
+        "releaseDate": "2019-11-01T00:00:00.000Z",
+        "slug": {
+          "name": "for-all-mankind"
+        }
+      },
+      {
+        "titles": {
+          "name": "Monarch: Legado de monstruos"
+        },
+        "TMDbId": "202411",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/66Ofbs8H1ZiYVjxaG6OWIev4xrR.jpg"
+        },
+        "releaseDate": "2023-11-16T00:00:00.000Z",
+        "slug": {
+          "name": "monarch-legado-de-monstruos"
+        }
+      }
+    ]
+  },
+  "lastEpisodes": {
+    "__typename": "PaginatedEpisode",
+    "data": [
+      {
+        "TMDbId": "6737389",
+        "title": "Amigos y vecinos 2x3",
+        "image": "https://image.tmdb.org/t/p/original/cXRz241o7dRK9eF6l0oASJc1tuX.jpg",
+        "releaseDate": "2026-04-16T00:00:00.000Z",
+        "slug": {
+          "name": "amigos-y-vecinos",
+          "season": "2",
+          "episode": "3"
+        }
+      },
+      {
+        "TMDbId": "6768687",
+        "title": "The Pitt 2x15",
+        "image": "https://image.tmdb.org/t/p/original/sQTZIZGSXcI5TAbgJfhez9zyNAq.jpg",
+        "releaseDate": "2026-04-16T00:00:00.000Z",
+        "slug": {
+          "name": "the-pitt",
+          "season": "2",
+          "episode": "15"
+        }
+      },
+      {
+        "TMDbId": "7083649",
+        "title": "Privilegios 1x4",
+        "image": "https://image.tmdb.org/t/p/original/23TUhry9PGllF8QCU7I0jAPchWq.jpg",
+        "releaseDate": "2026-04-17T00:00:00.000Z",
+        "slug": {
+          "name": "privilegios",
+          "season": "1",
+          "episode": "4"
+        }
+      },
+      {
+        "TMDbId": "6872526",
+        "title": "For All Mankind 5x4",
+        "image": "https://image.tmdb.org/t/p/original/h6Z8B5DPnZW6ztNQPOpBcP9BCER.jpg",
+        "releaseDate": "2026-04-16T00:00:00.000Z",
+        "slug": {
+          "name": "for-all-mankind",
+          "season": "5",
+          "episode": "4"
+        }
+      }
+    ]
+  },
+  "topDayMovies": {
+    "__typename": "PaginatedMovie",
+    "data": [
+      {
+        "titles": {
+          "name": "Proyecto Fin del Mundo"
+        },
+        "TMDbId": "687163",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/fApxPaHp4Mho7YnJ7tRiV0STdCA.jpg"
+        },
+        "releaseDate": "2026-03-15T00:00:00.000Z",
+        "slug": {
+          "name": "proyecto-fin-del-mundo"
+        }
+      },
+      {
+        "titles": {
+          "name": "Super Mario Galaxy: La película"
+        },
+        "TMDbId": "1226863",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/pLQQMO77ohibggTKV6wmFs5LHYf.jpg"
+        },
+        "releaseDate": "2026-04-01T00:00:00.000Z",
+        "slug": {
+          "name": "super-mario-galaxy-la-pelicula"
+        }
+      },
+      {
+        "titles": {
+          "name": "Avatar: Aang, El último Maestro Aire"
+        },
+        "TMDbId": "980431",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/iMsORWhD8MawINagL6kvpDVAtS.jpg"
+        },
+        "releaseDate": "2026-10-09T00:00:00.000Z",
+        "slug": {
+          "name": "avatar-aang-the-last-airbender"
+        }
+      },
+      {
+        "titles": {
+          "name": "Venganza"
+        },
+        "TMDbId": "1613798",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/ggJGx8fwwy21gEIXYusIlHcUn8z.jpg"
+        },
+        "releaseDate": "2026-02-26T00:00:00.000Z",
+        "slug": {
+          "name": "venganza-1613798"
+        }
+      },
+      {
+        "titles": {
+          "name": "Compañeras de cuarto"
+        },
+        "TMDbId": "1511057",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/hHOBxFzUK2CHmQ5djuOneyHkptS.jpg"
+        },
+        "releaseDate": "2026-04-13T00:00:00.000Z",
+        "slug": {
+          "name": "companeras-de-cuarto"
+        }
+      }
+    ]
+  },
+  "topDaySeries": {
+    "__typename": "PaginatedSerie",
+    "data": [
+      {
+        "titles": {
+          "name": "From"
+        },
+        "TMDbId": "124364",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/cjXLrg4R7FRPFafvuQ3SSznQOd9.jpg"
+        },
+        "releaseDate": "2022-02-20T00:00:00.000Z",
+        "slug": {
+          "name": "from"
+        }
+      },
+      {
+        "titles": {
+          "name": "Euphoria"
+        },
+        "TMDbId": "85552",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/6Sdm5XwdCnspdEF8fTFx6UJrl7o.jpg"
+        },
+        "releaseDate": "2019-06-16T00:00:00.000Z",
+        "slug": {
+          "name": "euphoria"
+        }
+      },
+      {
+        "titles": {
+          "name": "The Boys"
+        },
+        "TMDbId": "76479",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/5kgY14oisiHcJ4zq0Xgq1e97PHm.jpg"
+        },
+        "releaseDate": "2019-07-25T00:00:00.000Z",
+        "slug": {
+          "name": "the-boys"
+        }
+      },
+      {
+        "titles": {
+          "name": "Star Wars: Maul - Señor de las sombras"
+        },
+        "TMDbId": "289219",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/9T4ECKFMBWqT7msxdaCGtsa3g5R.jpg"
+        },
+        "releaseDate": "2026-04-06T00:00:00.000Z",
+        "slug": {
+          "name": "star-wars-maul-senor-de-las-sombras"
+        }
+      },
+      {
+        "titles": {
+          "name": "One Piece"
+        },
+        "TMDbId": "37854",
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/oag7edI9flSMawmNySEiSEJAbrf.jpg"
+        },
+        "releaseDate": "1999-10-20T00:00:00.000Z",
+        "slug": {
+          "name": "one-piece"
+        }
+      }
+    ]
+  },
+  "sliderItems": {
+    "__typename": "PaginatedMovie",
+    "data": [
+      {
+        "titles": {
+          "name": "Proyecto Fin del Mundo"
+        },
+        "images": {
+          "backdrop": "https://image.tmdb.org/t/p/original/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg"
+        },
+        "TMDbId": "687163",
+        "slug": {
+          "name": "proyecto-fin-del-mundo"
+        }
+      },
+      {
+        "titles": {
+          "name": "Super Mario Galaxy: La película"
+        },
+        "images": {
+          "backdrop": "https://image.tmdb.org/t/p/original/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg"
+        },
+        "TMDbId": "1226863",
+        "slug": {
+          "name": "super-mario-galaxy-la-pelicula"
+        }
+      },
+      {
+        "titles": {
+          "name": "Avatar: Aang, El último Maestro Aire"
+        },
+        "images": {
+          "backdrop": "https://image.tmdb.org/t/p/original/sS3zGYFPcfM5pArVNWl6qLyaSmU.jpg"
+        },
+        "TMDbId": "980431",
+        "slug": {
+          "name": "avatar-aang-the-last-airbender"
+        }
+      }
+    ]
+  }
+}

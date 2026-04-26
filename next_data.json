@@ -1,0 +1,677 @@
+{
+  "props": {
+    "pageProps": {
+      "context": {
+        "contexSidebarTopWeekMovies": {
+          "data": [
+            {
+              "titles": {
+                "name": "Proyecto Fin del Mundo"
+              },
+              "images": {
+                "backdrop": "https://image.tmdb.org/t/p/original/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg"
+              },
+              "releaseDate": "2026-03-15T00:00:00.000Z",
+              "rate": {
+                "average": 8.2
+              },
+              "TMDbId": "687163",
+              "slug": {
+                "name": "proyecto-fin-del-mundo"
+              }
+            },
+            {
+              "titles": {
+                "name": "Super Mario Galaxy: La película"
+              },
+              "images": {
+                "backdrop": "https://image.tmdb.org/t/p/original/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg"
+              },
+              "releaseDate": "2026-04-01T00:00:00.000Z",
+              "rate": {
+                "average": 6.79
+              },
+              "TMDbId": "1226863",
+              "slug": {
+                "name": "super-mario-galaxy-la-pelicula"
+              }
+            },
+            {
+              "titles": {
+                "name": "Avatar: Aang, El último Maestro Aire"
+              },
+              "images": {
+                "backdrop": "https://image.tmdb.org/t/p/original/sS3zGYFPcfM5pArVNWl6qLyaSmU.jpg"
+              },
+              "releaseDate": "2026-10-09T00:00:00.000Z",
+              "rate": {
+                "average": 0
+              },
+              "TMDbId": "980431",
+              "slug": {
+                "name": "avatar-aang-the-last-airbender"
+              }
+            },
+            {
+              "titles": {
+                "name": "Venganza"
+              },
+              "images": {
+                "backdrop": "https://image.tmdb.org/t/p/original/jJmlCFi5EjpH5vHmOczRiVDm0qS.jpg"
+              },
+              "releaseDate": "2026-02-26T00:00:00.000Z",
+              "rate": {
+                "average": 5.97
+              },
+              "TMDbId": "1613798",
+              "slug": {
+                "name": "venganza-1613798"
+              }
+            },
+            {
+              "titles": {
+                "name": "Compañeras de cuarto"
+              },
+              "images": {
+                "backdrop": "https://image.tmdb.org/t/p/original/cW8iKmWA6JAHgvNMyvrjqWd1dNp.jpg"
+              },
+              "releaseDate": "2026-04-13T00:00:00.000Z",
+              "rate": {
+                "average": 6.5
+              },
+              "TMDbId": "1511057",
+              "slug": {
+                "name": "companeras-de-cuarto"
+              }
+            },
+            {
+              "titles": {
+                "name": "El Drama"
+              },
+              "images": {
+                "backdrop": "https://image.tmdb.org/t/p/original/1oKLEA9JOhvaBwLpqjROisvWMy7.jpg"
+              },
+              "releaseDate": "2026-03-26T00:00:00.000Z",
+              "rate": {
+                "average": 7.04
+              },
+              "TMDbId": "1325734",
+              "slug": {
+                "name": "el-drama"
+              }
+            },
+            {
+              "titles": {
+                "name": "Avatar: Fuego y ceniza"
+              },
+              "images": {
+                "backdrop": "https://image.tmdb.org/t/p/original/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg"
+              },
+              "releaseDate": "2025-12-17T00:00:00.000Z",
+              "rate": {
+                "average": 7.37
+              },
+              "TMDbId": "83533",
+              "slug": {
+                "name": "avatar-fuego-y-ceniza"
+              }
+            },
+            {
+              "titles": {
+                "name": "Bolas arriba"
+              },
+              "images": {
+                "backdrop": "https://image.tmdb.org/t/p/original/jRsjWwZzI39bTm44FNhRtiICd9k.jpg"
+              },
+              "releaseDate": "2026-04-15T00:00:00.000Z",
+              "rate": {
+                "average": 5.44
+              },
+              "TMDbId": "1084577",
+              "slug": {
+                "name": "bolas-arriba"
+              }
+            }
+          ]
+        },
+        "contexSidebarTopWeekSeries": {
+          "data": [
+            {
+              "titles": {
+                "name": "Euphoria"
+              },
+              "images": {
+                "backdrop": "https://image.tmdb.org/t/p/original/GN2KFXiHPVV6sIw4v2P2pqCJty.jpg"
+              },
+              "releaseDate": "2019-06-16T00:00:00.000Z",
+              "rate": {
+                "average": 8.28
+              },
+              "TMDbId": "85552",
+              "slug": {
+                "name": "euphoria"
+              }
+            },
+            {
+              "titles": {
+                "name": "From"
+              },
+              "images": {
+                "backdrop": "https://image.tmdb.org/t/p/original/6gN8DYnIEln8v7OhRy61c57w0Xy.jpg"
+              },
+              "releaseDate": "2022-02-20T00:00:00.000Z",
+              "rate": {
+                "average": 8.16
+              },
+              "TMDbId": "124364",
+              "slug": {
+                "name": "from"
+              }
+            },
+            {
+              "titles": {
+                "name": "The Boys"
+              },
+              "images": {
+                "backdrop": "https://image.tmdb.org/t/p/original/bq28ajZaoMyzEIm6REelqyqtEDZ.jpg"
+              },
+              "releaseDate": "2019-07-25T00:00:00.000Z",
+              "rate": {
+                "average": 8.44
+              },
+              "TMDbId": "76479",
+              "slug": {
+                "name": "the-boys"
+              }
+            },
+            {
+              "titles": {
+                "name": "INVENCIBLE"
+              },
+              "images": {
+                "backdrop": "https://image.tmdb.org/t/p/original/9qrroces8C6R9aKr08hACNPVXdZ.jpg"
+              },
+              "releaseDate": "2021-03-25T00:00:00.000Z",
+              "rate": {
+                "average": 8.63
+              },
+              "TMDbId": "95557",
+              "slug": {
+                "name": "invencible"
+              }
+            },
+            {
+              "titles": {
+                "name": "Bronca"
+              },
+              "images": {
+                "backdrop": "https://image.tmdb.org/t/p/original/u7OpeS4eckBSR1wFxFTuyy3FjHE.jpg"
+              },
+              "releaseDate": "2023-04-06T00:00:00.000Z",
+              "rate": {
+                "average": 7.78
+              },
+              "TMDbId": "154385",
+              "slug": {
+                "name": "bronca"
+              }
+            },
+            {
+              "titles": {
+                "name": "One Piece"
+              },
+              "images": {
+                "backdrop": "https://image.tmdb.org/t/p/original/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg"
+              },
+              "releaseDate": "1999-10-20T00:00:00.000Z",
+              "rate": {
+                "average": 8.72
+              },
+              "TMDbId": "37854",
+              "slug": {
+                "name": "one-piece"
+              }
+            },
+            {
+              "titles": {
+                "name": "The Pitt"
+              },
+              "images": {
+                "backdrop": "https://image.tmdb.org/t/p/original/z3BkMbCy5ajZPMyKEUwsPHuz2cV.jpg"
+              },
+              "releaseDate": "2025-01-09T00:00:00.000Z",
+              "rate": {
+                "average": 8.72
+              },
+              "TMDbId": "250307",
+              "slug": {
+                "name": "the-pitt"
+              }
+            },
+            {
+              "titles": {
+                "name": "Star Wars: Maul - Señor de las sombras"
+              },
+              "images": {
+                "backdrop": "https://image.tmdb.org/t/p/original/5SrsdKcN9Flvccq59sIfJbhq1Fk.jpg"
+              },
+              "releaseDate": "2026-04-06T00:00:00.000Z",
+              "rate": {
+                "average": 7.6
+              },
+              "TMDbId": "289219",
+              "slug": {
+                "name": "star-wars-maul-senor-de-las-sombras"
+              }
+            }
+          ]
+        }
+      },
+      "post": {
+        "TMDbId": "687163",
+        "IMDbId": "tt12042730",
+        "titles": {
+          "name": "Proyecto Fin del Mundo",
+          "original": {
+            "name": "Project Hail Mary"
+          }
+        },
+        "images": {
+          "poster": "https://image.tmdb.org/t/p/original/fApxPaHp4Mho7YnJ7tRiV0STdCA.jpg",
+          "backdrop": "https://image.tmdb.org/t/p/original/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg"
+        },
+        "overview": "El profesor de ciencias Ryland Grace despierta en una nave espacial a años luz de su hogar sin recordar quién es ni cómo llegó allí. A medida que recupera la memoria, comienza a descubrir su misión: resolver el enigma de la misteriosa sustancia que está causando la extinción del sol.",
+        "runtime": 156,
+        "genres": [
+          {
+            "slug": "ciencia-ficcion",
+            "name": "Ciencia ficción"
+          },
+          {
+            "slug": "aventura",
+            "name": "Aventura"
+          }
+        ],
+        "cast": {
+          "acting": [
+            {
+              "name": "Ryan Gosling"
+            },
+            {
+              "name": "Sandra Hüller"
+            },
+            {
+              "name": "James Ortiz"
+            },
+            {
+              "name": "Lionel Boyce"
+            },
+            {
+              "name": "Milana Vayntrub"
+            },
+            {
+              "name": "Ken Leung"
+            },
+            {
+              "name": "Priya Kansara"
+            },
+            {
+              "name": "Mia Soteriou"
+            },
+            {
+              "name": "Annelle Olaleye"
+            },
+            {
+              "name": "Maya Eva Hosein"
+            },
+            {
+              "name": "Bastian Antonio Fuentes"
+            },
+            {
+              "name": "Alice Brittain"
+            },
+            {
+              "name": "Michael Akinsulire"
+            },
+            {
+              "name": "Travis Jay"
+            },
+            {
+              "name": "Geoffrey Lumb"
+            },
+            {
+              "name": "Orion Lee"
+            },
+            {
+              "name": "Aaron Neil"
+            },
+            {
+              "name": "Michelle Greenidge"
+            },
+            {
+              "name": "Bernhard Schütz"
+            },
+            {
+              "name": "Amira Ghazalla"
+            },
+            {
+              "name": "Malachi Kirby"
+            },
+            {
+              "name": "Liz Kingsman"
+            },
+            {
+              "name": "Piotr Baumann"
+            },
+            {
+              "name": "Ray Porter"
+            },
+            {
+              "name": "Meryl Streep"
+            },
+            {
+              "name": "Isla McRae"
+            },
+            {
+              "name": "Ryan Gosling"
+            },
+            {
+              "name": "Dan Dow"
+            },
+            {
+              "name": "Tom Moriarty"
+            },
+            {
+              "name": "Emma MacKenzie"
+            }
+          ],
+          "directing": [
+            {
+              "name": "Dan Channing-Williams"
+            },
+            {
+              "name": "Phil Lord"
+            },
+            {
+              "name": "Christopher Miller"
+            },
+            {
+              "name": "John Sorapure"
+            },
+            {
+              "name": "Jan Zalar"
+            },
+            {
+              "name": "Sheila Waldron"
+            },
+            {
+              "name": "Paul Chadeisson"
+            },
+            {
+              "name": "Richard Phelan"
+            },
+            {
+              "name": "Joaquim Dos Santos"
+            },
+            {
+              "name": "Paul Burrows"
+            },
+            {
+              "name": "Dan Channing-Williams"
+            },
+            {
+              "name": "Dan Channing-Williams"
+            },
+            {
+              "name": "Natalie Byrdsong"
+            },
+            {
+              "name": "Callum Dawson"
+            }
+          ],
+          "production": [
+            {
+              "name": "Damien de Froberville"
+            },
+            {
+              "name": "Will Allegra"
+            },
+            {
+              "name": "Rachel O'Connor"
+            },
+            {
+              "name": "Sarah Esberg"
+            },
+            {
+              "name": "Drew Goddard"
+            },
+            {
+              "name": "Ken Kao"
+            },
+            {
+              "name": "Ryan Gosling"
+            },
+            {
+              "name": "Phil Lord"
+            },
+            {
+              "name": "Andy Weir"
+            },
+            {
+              "name": "Phil Lord"
+            },
+            {
+              "name": "Aditya Sood"
+            },
+            {
+              "name": "Christopher Miller"
+            },
+            {
+              "name": "Christopher Miller"
+            },
+            {
+              "name": "Amy Pascal"
+            },
+            {
+              "name": "Patricia Whitcher"
+            },
+            {
+              "name": "Patricia Whitcher"
+            },
+            {
+              "name": "Nikki Baida"
+            },
+            {
+              "name": "Lucy Kitada"
+            },
+            {
+              "name": "Patricia Whitcher"
+            },
+            {
+              "name": "Pamela Joyce"
+            },
+            {
+              "name": "Jeanne McCarthy"
+            },
+            {
+              "name": "Nicole Abellera Hallman"
+            },
+            {
+              "name": "Susan E. Novick"
+            },
+            {
+              "name": "Barrie Hemsley"
+            },
+            {
+              "name": "Ross Jensen"
+            },
+            {
+              "name": "J. Wheeler White"
+            },
+            {
+              "name": "Matt Sheehy"
+            },
+            {
+              "name": "Lu Anna Jurado Taylor"
+            },
+            {
+              "name": "Lauren Leogue"
+            },
+            {
+              "name": "Tera Havey"
+            },
+            {
+              "name": "Jheryl Stewart"
+            },
+            {
+              "name": "Maya Nurmohamed"
+            },
+            {
+              "name": "Camilla Stephenson"
+            },
+            {
+              "name": "Florence Cleverdon"
+            },
+            {
+              "name": "Chor Man"
+            },
+            {
+              "name": "Marialucia Apicella"
+            },
+            {
+              "name": "Pippa Vaughan"
+            },
+            {
+              "name": "Lilly-Ann Jones"
+            },
+            {
+              "name": "Anna Ziff"
+            },
+            {
+              "name": "Caius Tabberer"
+            },
+            {
+              "name": "Zou Toulson"
+            }
+          ],
+          "countries": [
+            {
+              "name": "United States of America"
+            }
+          ]
+        },
+        "rate": {
+          "average": 8.2,
+          "votes": 1563
+        },
+        "slug": {
+          "name": "proyecto-fin-del-mundo"
+        },
+        "releaseDate": "2026-03-15T00:00:00.000Z",
+        "players": {
+          "latino": [
+            {
+              "cyberlocker": "filemoon",
+              "result": "https://player.gnula.life/player.php?h=nvSrqGY5gls.ZEL93nL9MCQCkxYcPAiTvMnKXBJxBow-",
+              "quality": "HD"
+            },
+            {
+              "cyberlocker": "voesx",
+              "result": "https://player.gnula.life/player.php?h=fXuMjvaiA4iZ_F_4aa6TH8450ziG8QDlI4tswsh7o6s-",
+              "quality": "HD"
+            },
+            {
+              "cyberlocker": "doodstream",
+              "result": "https://player.gnula.life/player.php?h=b4V4QCQH04mLSy2ukvmtf5RftUBYCF4dofKW4fNSmKEWh4SnpE3wbZNuPUbPTbXU",
+              "quality": "HD"
+            },
+            {
+              "cyberlocker": "netu",
+              "result": "https://player.gnula.life/player.php?h=eH0zYI4_M43LKCz95JRQwlT9pM.q9rc91QXxV27hMxo-",
+              "quality": "HD"
+            }
+          ],
+          "spanish": [],
+          "english": [
+            {
+              "cyberlocker": "streamwish",
+              "result": "https://player.gnula.life/player.php?h=rxPRsRSX4IlkyS1F21W5j92Q9T4X6cOxefq.M_41AX0uX6VUzI0FIrjZNlabvdjg",
+              "quality": "HD"
+            },
+            {
+              "cyberlocker": "filemoon",
+              "result": "https://player.gnula.life/player.php?h=nvSrqGY5gls.ZEL93nL9MNr8TtJQMaHuu_XRXs3sRfw-",
+              "quality": "HD"
+            },
+            {
+              "cyberlocker": "vidhide",
+              "result": "https://player.gnula.life/player.php?h=Nt6DnBaJ_hOcjWbELk7u0H61eom14cnc0cJYXz_E54vc4FvWljt2L_zUR7dk_SxE",
+              "quality": "HD"
+            },
+            {
+              "cyberlocker": "voesx",
+              "result": "https://player.gnula.life/player.php?h=fXuMjvaiA4iZ_F_4aa6TH.hwRYvNzYqFMbpQ02g.lCY-",
+              "quality": "HD"
+            },
+            {
+              "cyberlocker": "doodstream",
+              "result": "https://player.gnula.life/player.php?h=b4V4QCQH04mLSy2ukvmtf5VJz8APDkh2e4IcFhs0ZwoOHH1E.SrjSXTUkuM54ZUg",
+              "quality": "HD"
+            },
+            {
+              "cyberlocker": "netu",
+              "result": "https://player.gnula.life/player.php?h=eH0zYI4_M43LKCz95JRQwt7KL4FN.BXCU3tvp4TusyQ-",
+              "quality": "HD"
+            }
+          ]
+        },
+        "downloads": [
+          {
+            "cyberlocker": "doodstream",
+            "result": "https://player.gnula.life/download.php?h=b4V4QCQH04mLSy2ukvmtf_GHmJH.9AutpdI9pQSZbWVAzeS5oC0a3N2ouLUoHu2i",
+            "quality": "HD",
+            "language": "Latino"
+          },
+          {
+            "cyberlocker": "filemoon",
+            "result": "https://player.gnula.life/download.php?h=nvSrqGY5gls.ZEL93nL9MMAAqRhFSg3tF2lTLuKMgMU-",
+            "quality": "HD",
+            "language": "Latino"
+          },
+          {
+            "cyberlocker": "doodstream",
+            "result": "https://player.gnula.life/download.php?h=b4V4QCQH04mLSy2ukvmtfzTLXX.rPyQqnuf_VuAavw0yGhaeBktnPcEjUWB0Niol",
+            "quality": "HD",
+            "language": "Subtitulado"
+          },
+          {
+            "cyberlocker": "streamwish",
+            "result": "https://player.gnula.life/download.php?h=rxPRsRSX4IlkyS1F21W5jxrOfti5VMFEDv.N4FJOgp9.snEzZEM4qPnhs0nVjuFm",
+            "quality": "HD",
+            "language": "Subtitulado"
+          },
+          {
+            "cyberlocker": "filemoon",
+            "result": "https://player.gnula.life/download.php?h=nvSrqGY5gls.ZEL93nL9MHlyNTtRQ21iCV4VTen_NxA-",
+            "quality": "HD",
+            "language": "Subtitulado"
+          }
+        ]
+      }
+    },
+    "__N_SSG": true
+  },
+  "page": "/singles/movies/[slug]",
+  "query": {
+    "slug": "proyecto-fin-del-mundo"
+  },
+  "buildId": "6DVRJbHyJM13h4huPXArH",
+  "isFallback": false,
+  "gsp": true,
+  "locale": "es",
+  "locales": [
+    "es"
+  ],
+  "defaultLocale": "es",
+  "scriptLoader": []
+}
