@@ -41,13 +41,15 @@ export async function getHomeMovies() {
                             if (type === 'episode' && item.slug && !title.includes('x')) {
                                 title += ` ${item.slug.season}x${item.slug.episode}`;
                             }
+                            
+                            const finalType = type === 'episode' ? 'series' : type;
 
                             targetArray.push({
                                 title: title,
-                                link: `/series/${id}`, // Clic de un episodio siempre te lleva a la serie original configurada
+                                link: `/${finalType}/${id}`, // Enlace dinámico según el tipo
                                 image: extractImage(item.image || item.images?.backdrop || item.images?.poster || item.serie?.images?.backdrop),
                                 id: id,
-                                type: type === 'episode' ? 'series' : type,
+                                type: finalType,
                                 epNumber: item.slug?.episode
                             });
                         }
@@ -63,9 +65,10 @@ export async function getHomeMovies() {
                 // Extracción del Hero Banner
                 if(props.sliderItems?.data) {
                     props.sliderItems.data.forEach((item: any) => {
+                        const isSerie = item.seasons || item.numberOfSeasons || item.lastEpisode || (item.slug?.name && item.slug.name.includes('series')) ? 'series' : 'movie';
                         hero.push({
                             title: item.titles?.name || 'Desconocido',
-                            link: `/movie/${item.slug?.name || item.TMDbId}`,
+                            link: `/${isSerie}/${item.slug?.name || item.TMDbId}`,
                             backdrop: extractImage(item.images?.backdrop || item.images?.poster)
                         });
                     });
